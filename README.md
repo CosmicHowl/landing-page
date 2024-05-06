@@ -1,1 +1,2 @@
 # landing-page
+This is an assignment from the Odin Project that I am bound to trip over more than a few times. It's a culmination of what I've been learning so far, up to the usage of flexbox. With these elements, I will create a landing page.
