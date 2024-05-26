@@ -1,11 +1,21 @@
+body {
+    margin: 0;
+}
+
 .fullhead {
-    background-color: #1f2737;
-    
+    background-color: hsl(220, 28%, 17%);
+    padding: 0 100px 100px 100px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    
+}
+
+.nav {
+    display: flex;
+    gap: 10px;
 }
 
 .logo {
@@ -16,4 +26,42 @@
 a {
     color: #e5e7eb;
     font-size: 18px;
+}
+
+.header2 {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    padding-top: 100px;
+    flex-grow: 1 1 0; 
+}
+
+.subtext {
+    
+}
+
+.subtexthead {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.subtextdesc {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.drone {
+    max-width: 100%;
+    max-height: auto;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 5px 20px 5px 20px;
 }
