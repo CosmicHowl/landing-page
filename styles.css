@@ -6,6 +6,8 @@ body {
     padding: 0 15% 15% 15%;
 }
 
+/*Header*/
+
 .fullhead {
     background-color: #1f2937;
 }
@@ -71,6 +73,8 @@ button {
     padding: 5px 20px 5px 20px;
 }
 
+/*Information*/
+
 .infohead {
     text-align: center;
     font-size: 36px;
@@ -82,7 +86,7 @@ button {
     display: flex;
     justify-content: center;
     gap: 10px;
-    padding: 0 15% 0 15%;
+    padding: 0 10% 0 10%;
 }
 
 .infoimg {
@@ -93,6 +97,8 @@ button {
     border-color: #3882F6;
     border-radius: 12px;
 }
+
+/*Quote*/
 
 .quote {
     background-color: #E5E7EB;
@@ -112,6 +118,8 @@ button {
     font-size: 26px;
 }
 
+/*Call to action*/
+
 .action {
     display: flex;
     justify-content: center;
@@ -122,8 +130,9 @@ button {
     display: flex;
     background-color: #3882F6;
     color: white;
-    padding: 5% 10% 5% 10%;
+    padding: 2% 10% 2% 10%;
     gap: 20%;
+    justify-content: space-between;
     align-items: center;
     width: 800px;
     border-radius: 8px;
@@ -135,7 +144,10 @@ button {
     border-color: white;
     width: 125px;
     padding: -5px 5px -5px 5px;
+    font-size: 16px;
 }
+
+/*Copyright*/
 
 .copyright {
     background-color: #1f2937;
